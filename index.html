@@ -4,12 +4,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renaissance Collective</title>
     <style>
+  		/* Artist name hyperlinks (applies to all current + future artists) */
+  	.artist-card h3 a {
+    color: inherit;              /* match original artist name color */
+    text-decoration: underline;  /* keep hyperlink underline */
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+  .artist-card h3 a:hover {
+    opacity: 0.85;
+  
+        /* Artist name hyperlinks — underline on hover only */
+  .artist-card h3 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .artist-card h3 a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+  }
+</style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Georgia', serif;
             background: #0a0a0a;
