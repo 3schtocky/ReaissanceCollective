@@ -1,0 +1,191 @@
+{
+  "artists": [
+    {
+      "id": "tre",
+      "name": "TRE",
+      "discipline": "Visual Artist & Producer",
+      "bio": "TRE is a visual artist and music producer blending dark, atmospheric sounds with raw visual storytelling.",
+      "image": "assets/images/tre.jpg",
+      "socials": {
+        "soundcloud": "https://on.soundcloud.com/ibdU4KqIqH1zHtL9I4"
+      },
+      "beats": [
+        {
+          "id": "midnight-run",
+          "title": "Midnight Run",
+          "genre": "Hip-Hop",
+          "bpm": 140,
+          "key": "Am",
+          "coverImage": "assets/images/midnight-run.jpg",
+          "previewUrl": "https://storage.example.com/previews/midnight-run-preview.mp3",
+          "tags": ["dark", "trap", "hard"],
+          "description": "A hard-hitting trap instrumental with dark melodies and heavy 808s.",
+          "licenses": [
+            {
+              "name": "MP3 Lease",
+              "format": "mp3",
+              "price": 19.99,
+              "downloadUrl": "https://storage.example.com/files/midnight-run.mp3",
+              "details": "MP3 format, tagged for non-profit use, up to 2500 streams"
+            },
+            {
+              "name": "WAV Lease",
+              "format": "wav",
+              "price": 49.99,
+              "downloadUrl": "https://storage.example.com/files/midnight-run.wav",
+              "details": "Untagged WAV, up to 5000 streams, 1 music video"
+            },
+            {
+              "name": "Exclusive Rights",
+              "format": "wav",
+              "price": 199.99,
+              "downloadUrl": "https://storage.example.com/files/midnight-run-exclusive.wav",
+              "details": "Full ownership, track stems included, beat removed from store"
+            }
+          ]
+        },
+        {
+          "id": "shadow-protocol",
+          "title": "Shadow Protocol",
+          "genre": "Trap",
+          "bpm": 155,
+          "key": "Dm",
+          "coverImage": "assets/images/shadow-protocol.jpg",
+          "previewUrl": "https://storage.example.com/previews/shadow-protocol-preview.mp3",
+          "tags": ["aggressive", "dark", "cinematic"],
+          "description": "Cinematic trap beat with eerie pads and punchy drums.",
+          "licenses": [
+            {
+              "name": "MP3 Lease",
+              "format": "mp3",
+              "price": 24.99,
+              "downloadUrl": "https://storage.example.com/files/shadow-protocol.mp3",
+              "details": "MP3 format, tagged for non-profit use, up to 2500 streams"
+            },
+            {
+              "name": "WAV Lease",
+              "format": "wav",
+              "price": 59.99,
+              "downloadUrl": "https://storage.example.com/files/shadow-protocol.wav",
+              "details": "Untagged WAV, up to 5000 streams, 1 music video"
+            },
+            {
+              "name": "Exclusive Rights",
+              "format": "wav",
+              "price": 249.99,
+              "downloadUrl": "https://storage.example.com/files/shadow-protocol-exclusive.wav",
+              "details": "Full ownership, track stems included, beat removed from store"
+            }
+          ]
+        },
+        {
+          "id": "neon-drift",
+          "title": "Neon Drift",
+          "genre": "Lo-Fi Hip-Hop",
+          "bpm": 85,
+          "key": "Cm",
+          "coverImage": "assets/images/neon-drift.jpg",
+          "previewUrl": "https://storage.example.com/previews/neon-drift-preview.mp3",
+          "tags": ["chill", "lo-fi", "smooth"],
+          "description": "A mellow lo-fi beat with warm vinyl textures and jazzy chords.",
+          "licenses": [
+            {
+              "name": "MP3 Lease",
+              "format": "mp3",
+              "price": 14.99,
+              "downloadUrl": "https://storage.example.com/files/neon-drift.mp3",
+              "details": "MP3 format, tagged for non-profit use, up to 2500 streams"
+            },
+            {
+              "name": "WAV Lease",
+              "format": "wav",
+              "price": 39.99,
+              "downloadUrl": "https://storage.example.com/files/neon-drift.wav",
+              "details": "Untagged WAV, up to 5000 streams, 1 music video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecoh",
+      "name": "ECOH",
+      "discipline": "Producer",
+      "bio": "ECOH is a music producer specializing in Hip-Hop & Rap styles, crafting beats that hit hard and stick in your head.",
+      "image": "assets/images/ecoh.jpg",
+      "socials": {
+        "soundcloud": "https://on.soundcloud.com/NbX87ijaAJHKq06Gda"
+      },
+      "beats": [
+        {
+          "id": "concrete-jungle",
+          "title": "Concrete Jungle",
+          "genre": "Hip-Hop",
+          "bpm": 90,
+          "key": "Gm",
+          "coverImage": "assets/images/concrete-jungle.jpg",
+          "previewUrl": "https://storage.example.com/previews/concrete-jungle-preview.mp3",
+          "tags": ["boom-bap", "gritty", "street"],
+          "description": "A gritty boom-bap instrumental with heavy bass and chopped samples.",
+          "licenses": [
+            {
+              "name": "MP3 Lease",
+              "format": "mp3",
+              "price": 19.99,
+              "downloadUrl": "https://storage.example.com/files/concrete-jungle.mp3",
+              "details": "MP3 format, tagged for non-profit use, up to 2500 streams"
+            },
+            {
+              "name": "WAV Lease",
+              "format": "wav",
+              "price": 49.99,
+              "downloadUrl": "https://storage.example.com/files/concrete-jungle.wav",
+              "details": "Untagged WAV, up to 5000 streams, 1 music video"
+            },
+            {
+              "name": "Exclusive Rights",
+              "format": "wav",
+              "price": 199.99,
+              "downloadUrl": "https://storage.example.com/files/concrete-jungle-exclusive.wav",
+              "details": "Full ownership, track stems included, beat removed from store"
+            }
+          ]
+        },
+        {
+          "id": "late-night-flex",
+          "title": "Late Night Flex",
+          "genre": "Rap",
+          "bpm": 130,
+          "key": "Fm",
+          "coverImage": "assets/images/late-night-flex.jpg",
+          "previewUrl": "https://storage.example.com/previews/late-night-flex-preview.mp3",
+          "tags": ["bouncy", "club", "energy"],
+          "description": "High-energy rap beat with bouncy 808s and catchy melodies.",
+          "licenses": [
+            {
+              "name": "MP3 Lease",
+              "format": "mp3",
+              "price": 24.99,
+              "downloadUrl": "https://storage.example.com/files/late-night-flex.mp3",
+              "details": "MP3 format, tagged for non-profit use, up to 2500 streams"
+            },
+            {
+              "name": "WAV Lease",
+              "format": "wav",
+              "price": 54.99,
+              "downloadUrl": "https://storage.example.com/files/late-night-flex.wav",
+              "details": "Untagged WAV, up to 5000 streams, 1 music video"
+            },
+            {
+              "name": "Exclusive Rights",
+              "format": "wav",
+              "price": 224.99,
+              "downloadUrl": "https://storage.example.com/files/late-night-flex-exclusive.wav",
+              "details": "Full ownership, track stems included, beat removed from store"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

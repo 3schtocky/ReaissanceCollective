@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist — Renaissance Collective</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/artist.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo"><a href="index.html">Renaissance Collective</a></div>
+            <div class="mobile-toggle" onclick="toggleMenu()">☰</div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#artists">Artists</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Artist Content -->
+    <div id="artist-content">
+        <div id="artist-header"></div>
+        <section class="beats-section">
+            <h2>Beats</h2>
+            <div id="beats-grid" class="beats-grid"></div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Renaissance Collective. All rights reserved.</p>
+    </footer>
+
+    <!-- Persistent Audio Player Bar -->
+    <div id="player-bar" class="player-bar">
+        <div class="player-inner">
+            <button id="player-play-btn" class="player-play-btn" onclick="togglePlayerPlayPause()">&#9654;</button>
+            <div class="player-track-info">
+                <span id="player-track-name" class="player-track-name">—</span>
+            </div>
+            <span id="player-current-time" class="player-time">0:00</span>
+            <div id="player-progress-bar" class="player-progress-bar" onclick="seekPlayer(event)">
+                <div id="player-progress" class="player-progress"></div>
+            </div>
+            <span id="player-duration" class="player-time">0:00</span>
+        </div>
+    </div>
+
+    <!-- Purchase Modal -->
+    <div id="purchase-modal" class="modal-overlay" onclick="if(event.target===this)closePurchaseModal()">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closePurchaseModal()">&times;</button>
+            <h3 id="modal-beat-name"></h3>
+            <div class="modal-price-display">
+                <span id="modal-price"></span>
+            </div>
+            <div id="paypal-button-container"></div>
+            <div id="download-section" class="download-section" style="display:none;">
+                <a id="download-link" href="#" class="download-btn" target="_blank" rel="noopener">Download</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- PayPal SDK — Replace YOUR_CLIENT_ID with your PayPal Client ID -->
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD" data-namespace="paypal"></script>
+
+    <script src="js/nav.js"></script>
+    <script src="js/catalog.js"></script>
+    <script src="js/artist.js"></script>
+</body>
+</html>
